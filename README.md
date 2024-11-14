@@ -9,7 +9,7 @@ sudo pacman -Sy gcc
 
 ### How to compile the binary 
 ```bash
-g++ -std=c++14 -o crackme src.cpp
+g++ -std=c++14 -g -o crackme src.cpp
 ```
 
 - Use gdb
